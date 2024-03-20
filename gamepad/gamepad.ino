@@ -13,10 +13,10 @@ const int pinDown = 7;
 const int pinLeft = 8;
 const int pinRight = 9;
 
-const int digitalPins[] = {pinStart, pinSelect, pinA, pinB, pinX, pinY};
+const int digitalPins[] = { pinStart, pinSelect, pinA, pinB, pinX, pinY };
 const int digitalPinCount = sizeof(digitalPins) / sizeof(digitalPins[0]);
 
-const int hatPins[] = {pinUp, pinDown, pinLeft, pinRight};
+const int hatPins[] = { pinUp, pinDown, pinLeft, pinRight };
 const int hatPinCount = 4;
 
 //Analog Pins
@@ -35,16 +35,16 @@ Dictionary<String, int> hatDictionary = Dictionary<String, int>();
 void setup() {
   Serial.begin(9600);
   Serial.println("Initialization Start:");
-  
+
   Joystick.useManualSend(true);
-  for(int i = 0; i < digitalPinCount; i++){
+  for (int i = 0; i < digitalPinCount; i++) {
     pinMode(digitalPins[i], INPUT_PULLUP);
     Serial.print("Digital Pin ");
     Serial.print(digitalPins[i]);
     Serial.println(" set to INPUT_PULLUP...");
   }
 
-  for(int i = 0; i < hatPinCount; i++){
+  for (int i = 0; i < hatPinCount; i++) {
     pinMode(hatPins[i], INPUT_PULLUP);
     Serial.print("Hat Pin ");
     Serial.print(hatPins[i]);
@@ -58,16 +58,16 @@ void setup() {
 
 void loop() {
   //Update Left Joystick
-  int mappedAnalogLeftX = map(analogRead(analogLeftX), 220, 1024, -512, 512);
-  Serial.println(mappedAnalogLeftX);
+  //int mappedAnalogLeftX = map(analogRead(analogLeftX), 220, 1024, -512, 512);
+  //Serial.println(mappedAnalogLeftX);
   Joystick.X(analogRead(analogLeftX));
-  int mappedAnalogLeftY = map(analogRead(analogLeftY), 220, 1024, -512, 512);
+  //int mappedAnalogLeftY = map(analogRead(analogLeftY), 220, 1024, -512, 512);
   Joystick.Y(analogRead(analogLeftY));
 
   //Update Right Joystick
-  int mappedAnalogRightX = map(analogRead(analogRightX), 220, 1024, 0, 1023);
+  //int mappedAnalogRightX = map(analogRead(analogRightX), 220, 1024, 0, 1023);
   Joystick.Z(analogRead(analogRightX));
-  int mappedAnalogRightY = map(analogRead(analogRightY), 220, 1024, 0, 1023);
+  //int mappedAnalogRightY = map(analogRead(analogRightY), 220, 1024, 0, 1023);
   Joystick.Zrotate(analogRead(analogRightY));
 
   //Update Digital Button State
@@ -100,19 +100,19 @@ void loop() {
   ///////////////////
   boolean anyChange = false;
   for (int i = 0; i < digitalPinCount; i++) {
-    if (allButtons[i] != prevButtons[i]){
+    if (allButtons[i] != prevButtons[i]) {
       anyChange = true;
     }
     prevButtons[i] = allButtons[i];
   }
 
   for (int i = 0; i < hatPinCount; i++) {
-    if (hatButtons[i] != prevHatButtons[i]){
+    if (hatButtons[i] != prevHatButtons[i]) {
       anyChange = true;
     }
     prevHatButtons[i] = hatButtons[i];
   }
-  
+
   if (anyChange) {
     Serial.print("Digital Buttons: ");
     for (int i = 0; i < digitalPinCount; i++) {
@@ -125,24 +125,24 @@ void loop() {
     }
     Serial.println();
   }
-  
+
 
   delay(5);
 }
 
-int evaluateCurrentHatAngle(){
+int evaluateCurrentHatAngle() {
   String byteString;
-  for(int i = 0; i < hatPinCount; i++){
+  for (int i = 0; i < hatPinCount; i++) {
     byteString += hatButtons[i];
   }
 
   return byteString != NULL ? hatDictionary.get(byteString) : -1;
 }
 
-void initializeHatDictionary(){
+void initializeHatDictionary() {
   Serial.println("Initializing Hat Dictionary:");
 
-  hatDictionary.set("0000", -1); //unset
+  hatDictionary.set("0000", -1);  //unset
   Serial.print("[UNSET] - ");
   Serial.print("0000 - ");
   Serial.println(hatDictionary.get("0000"));
@@ -186,5 +186,4 @@ void initializeHatDictionary(){
   Serial.print("[UP-LEFT] - ");
   Serial.print("1010 - ");
   Serial.println(hatDictionary.get("1010"));
-
 }
