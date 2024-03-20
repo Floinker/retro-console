@@ -1,0 +1,1913 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "15c5aaad-fa7f-4149-aff3-7261d55a34a1")
+		(at 147.5 31)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "29f9def0-5238-43c2-99bf-236504add66d")
+		(at 72.55 59.743742)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "35f2d9ed-259b-4d5e-9c87-9bdbdd6b90ee")
+		(at 172.55 107.743742)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "387c7491-050f-41bc-ba64-069df55a75bd")
+		(at 59.05 73.243742)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c3b31e97-138d-44c9-ba48-02fdd6cc6e0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "c767b562-22da-41d6-8d90-5778efc13aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01774dd0-00c2-4c2e-a09a-ee63e178862b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a6d3a1-5230-4c9e-b38e-f14fada3be54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50593e20-09cd-4a26-8ca9-1010494be04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44caaa69-2c5d-4b5c-a3c8-ab19025d811d")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba2986d3-8b12-4ea8-b0bb-3a7a858264a6")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e72dee7c-571d-45f6-99c9-81d32d28b0d2")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f912fa0a-2b44-4eb3-a41e-593ac6be4cd5")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8436925a-00df-4e39-9dea-e5b76c8d7017")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5241d9c8-8bd2-4dab-9e6a-305171eef6e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "bb1b94ad-8479-47cb-8ac3-3b9f23d6d154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7c97e831-ee95-4463-a107-f7e78571e05e")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "094f1984-692a-442b-bb9f-6274e7007bdc")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e486c574-462f-47e8-bfeb-7182c26da27f")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "59de97e6-0c35-494a-b46b-3bbcfe56c77c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "4fdb8c9a-14c5-4799-9ab6-ef0625784c79")
+		(at 186 121)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "693bb4f1-b5fb-46a9-8640-088e24e386c5")
+		(at 97.5 31)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "919ba584-3009-460b-964e-9b05157d2852")
+		(at 172.5 134.5)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c3b31e97-138d-44c9-ba48-02fdd6cc6e0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "c767b562-22da-41d6-8d90-5778efc13aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01774dd0-00c2-4c2e-a09a-ee63e178862b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a6d3a1-5230-4c9e-b38e-f14fada3be54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50593e20-09cd-4a26-8ca9-1010494be04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44caaa69-2c5d-4b5c-a3c8-ab19025d811d")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba2986d3-8b12-4ea8-b0bb-3a7a858264a6")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e72dee7c-571d-45f6-99c9-81d32d28b0d2")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f912fa0a-2b44-4eb3-a41e-593ac6be4cd5")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8436925a-00df-4e39-9dea-e5b76c8d7017")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5241d9c8-8bd2-4dab-9e6a-305171eef6e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "bb1b94ad-8479-47cb-8ac3-3b9f23d6d154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7c97e831-ee95-4463-a107-f7e78571e05e")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "094f1984-692a-442b-bb9f-6274e7007bdc")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e486c574-462f-47e8-bfeb-7182c26da27f")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "59de97e6-0c35-494a-b46b-3bbcfe56c77c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "b9b1c007-a43a-4319-a52a-8e0e8b6bd4f0")
+		(at 159.05 121.243742)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c3b31e97-138d-44c9-ba48-02fdd6cc6e0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "c767b562-22da-41d6-8d90-5778efc13aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01774dd0-00c2-4c2e-a09a-ee63e178862b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a6d3a1-5230-4c9e-b38e-f14fada3be54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50593e20-09cd-4a26-8ca9-1010494be04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44caaa69-2c5d-4b5c-a3c8-ab19025d811d")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba2986d3-8b12-4ea8-b0bb-3a7a858264a6")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e72dee7c-571d-45f6-99c9-81d32d28b0d2")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f912fa0a-2b44-4eb3-a41e-593ac6be4cd5")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8436925a-00df-4e39-9dea-e5b76c8d7017")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5241d9c8-8bd2-4dab-9e6a-305171eef6e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "bb1b94ad-8479-47cb-8ac3-3b9f23d6d154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7c97e831-ee95-4463-a107-f7e78571e05e")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "094f1984-692a-442b-bb9f-6274e7007bdc")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e486c574-462f-47e8-bfeb-7182c26da27f")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "59de97e6-0c35-494a-b46b-3bbcfe56c77c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "c5d414cc-4165-4868-9f64-c57b3e0a9038")
+		(at 86 73)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "789e23b3-1755-4342-a711-8de4ad65732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "04e24cf3-8a9a-4c84-9ed3-8743d2d2970a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5eb3b6-783e-4af4-8557-f36c9a8200a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fb34d-2abd-46d3-99d1-bd031da8d18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc9c709-6e61-49d1-ab4a-807c3610a53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c75317a-f24f-4bd6-9bc0-ba574fe095e0")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9e300e7-a8ea-47d7-b591-0ae6d560143c")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89f7b24-e99d-4576-abf1-68bb91dff674")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00e526f7-2b5d-4b73-ab98-b2d198a54ce0")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bceb75f1-187c-4ade-893b-773c24cfba31")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2643a487-988e-4e93-8c8b-776b1a51a743")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "1bb2fd54-0d06-412f-827f-f2dea6cc1540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "57e1b9aa-2a81-4178-87d1-e9b4d7b33294")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "066de4dc-b036-4685-b059-01ed44f07517")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5c933e4c-cba0-46ff-8737-ffbb13272a44")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba0231ce-a07b-438d-8bdb-46288e9a3402")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(layer "F.Cu")
+		(uuid "d4bcee38-cb9b-4cff-a903-46d5eb3e2363")
+		(at 72.5 86.5)
+		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+		(tags "Push Button")
+		(property "Reference" "REF**"
+			(at 2.5 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c3b31e97-138d-44c9-ba48-02fdd6cc6e0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Push_E-Switch_KS01Q01"
+			(at 2.5 9.5 0)
+			(layer "F.Fab")
+			(uuid "c767b562-22da-41d6-8d90-5778efc13aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01774dd0-00c2-4c2e-a09a-ee63e178862b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a6d3a1-5230-4c9e-b38e-f14fada3be54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50593e20-09cd-4a26-8ca9-1010494be04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 4.89 8.14)
+			(end 0.11 8.14)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44caaa69-2c5d-4b5c-a3c8-ab19025d811d")
+		)
+		(fp_arc
+			(start 0.11 8.14)
+			(mid 2.496283 -3.625495)
+			(end 4.896843 8.137095)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba2986d3-8b12-4ea8-b0bb-3a7a858264a6")
+		)
+		(fp_line
+			(start 0.04 8.39)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e72dee7c-571d-45f6-99c9-81d32d28b0d2")
+		)
+		(fp_arc
+			(start 0.04 8.39)
+			(mid 2.55 -3.902515)
+			(end 5.06 8.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f912fa0a-2b44-4eb3-a41e-593ac6be4cd5")
+		)
+		(fp_line
+			(start 0.11 8)
+			(end 4.89 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8436925a-00df-4e39-9dea-e5b76c8d7017")
+		)
+		(fp_arc
+			(start 0.11 8)
+			(mid 2.498654 -3.496841)
+			(end 4.892469 7.998926)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5241d9c8-8bd2-4dab-9e6a-305171eef6e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 2.5 0)
+			(layer "F.Fab")
+			(uuid "bb1b94ad-8479-47cb-8ac3-3b9f23d6d154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7c97e831-ee95-4463-a107-f7e78571e05e")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "094f1984-692a-442b-bb9f-6274e7007bdc")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e486c574-462f-47e8-bfeb-7182c26da27f")
+		)
+		(pad "4" thru_hole circle
+			(at 5 5)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "59de97e6-0c35-494a-b46b-3bbcfe56c77c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+)
